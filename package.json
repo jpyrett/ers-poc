@@ -1,6 +1,6 @@
 {
   "name": "ers-poc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "the first package",
   "scripts": {
     "build": "webpack -d",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jpyrett/ers-poc"
+    "url": "git+https://github.com/jpyrett/ers-poc.git"
   },
   "license": "MIT",
   "babel": {
