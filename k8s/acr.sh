@@ -2,7 +2,7 @@
 
 AKS_RESOURCE_GROUP='RG-ers'
 AKS_CLUSTER_NAME='ersAKS'
-ACR_RESOURCE_GROUP='ersAKS'
+ACR_RESOURCE_GROUP='RG-ers'
 ACR_NAME='ersACR'
 
 # Get the id of the service principal configured for AKS
