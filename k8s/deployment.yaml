@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: react-clock-basic
+  name: ers-poc
 spec:
   selector:
       matchLabels:
-        app: react-clock-basic
-  replicas: 3
+        app: ers-poc
+  replicas: 1
   template:
       metadata:
         labels:
-            app: react-clock-basic
+            app: ers-poc
       spec:
         containers:
-        - name: react-clock-basic
-          image: <>.azurecr.io/react-clock-basic:v1
+        - name: ers-poc
+          image: ersacr.azurecr.io/poc:v1
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
